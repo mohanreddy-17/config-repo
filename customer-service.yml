@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: customer-service
+  datasource:
+    url: jdbc:mysql://localhost:3306/customer_master
+    driver_classname: com.mysql.cj.jdbc.driver
+    
