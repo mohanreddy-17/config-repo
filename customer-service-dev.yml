@@ -1,0 +1,14 @@
+global:
+  message: welcome to customer service dev environment
+server:
+  port: 8082
+message: hello fromm dev!
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/customer_master
+    username: root
+    password:
+  jpa:
+    hibernate:
+      ddl-auto: update
+    shoe-sql: true
