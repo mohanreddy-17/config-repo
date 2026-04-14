@@ -3,5 +3,9 @@ spring:
     name: customer-service
   datasource:
     url: jdbc:mysql://localhost:3306/customer_master
-    driver_classname: com.mysql.cj.jdbc.driver
+    driver_classname: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: none
+      show-sql: false
     
